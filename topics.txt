@@ -1,0 +1,224 @@
+
+1. Attendance 
+2. assessment ---70 % 
+
+Agenda :
+
+Day1 :Spring Basics
+             1.Dependency Injection,
+
+Day 2:
+             2.Inversion Of Control
+             3.Spring Bean Life Cycle
+             4.Auto Wiring (XML + Annoataion)
+Day 3:
+JDBC ,annotation
+     
+Day4 :Spring AOP,Spring Web MVC 
+
+Day 1:
+
+Spring Core and MVC
+
+Frame work MVC based
+services /functional  
+
+Features:
+lightwt ---POGO class
+DI and IOC:
+Unit testing base framework
+Template --- jdbc,hb,jpa
+modular approac
+inter  with ther 
+web mvc 
+exceptional handling mechni, trancation mgmt
+
+DI and IOC 
+
+
+dependency injection  --implementation of IOC
+IOC ---inversion of control , concept 
+
+class Address
+{
+city,state,cnt;
+streetname ,zip code
+}
+class Emp
+{
+Address a=new Address();
+eid,ename,sal,dob,doj;
+}
+class EmpService
+{
+Emp e=new Emp();
+addEmp(),delEmp,updateEmp,serEmp
+}
+clientApp
+{
+EmpService s=new EmpService();
+}
+
+IOC 
+
+DI 
+
+whom ???
+primitive data type & String
+dependent object
+collection 
+
+
+how 
+setter injection 
+constr injection
+interface
+
+
+Meta Data
+XML
+annotation
+Java Class 
+
+Demo 1:
+pojo  --setter injection 
+XML --meta 
+
+
+
+BeanFactory
+      |
+ApplicationContext
+
+constr 
+
+setter
+
+
+business
+
+lazy init
+eager init
+generic init 
+
+scope  
+singleton /  container
+protptype
+http  ---   request, session , global session 
+dependent object 
+
+Emp e1=new Emp();
+
+Emp e2=new Emp();
+
+Emp a=e1;
+Emp b=new Emp();;
+
+
+Autowire 
+byType
+ByName
+ByCont
+Auto
+no 
+
+
+Day 2:
+Collection  --- set,map,list,proper
+life cycle of 
+1.custom method
+2.interfaces
+3.annotations
+
+Annotations
+
+@Component--- spring bean Object above class name of camelcasing
+@Reposi   ---DAO
+@Service  --- service 
+
+@Required
+
+@Auotowire
+@Qualifier
+
+---MVC-------
+@Controller
+@RequestMapping
+
+
+----- Java Class------
+@Configuration
+@Bean
+
+Employee --- employess
+
+Atosemp---atosemp
+AtosEmp--- atosEmp  address
+
+@Scope
+@Lazy
+
+Day 3:
+jdbc-- JdbcTemplate,SimpleJDBC,NamedJDBC...
+aop
+
+
+fund transfer ---- bal -amt;// BL
+
+add pay
+confirm
+security 
+otp --- sending
+sms --- transction 
+
+Funtionality ----- Non functional
+
+Application 
+
+Functional and non functional aspects 
+
+target --- actula bus code
+advice ---   method   code non functional 
+joint point --- evenet /point when my addvice 
+
+point cut ----
+
+aspect 
+
+security aspect
+aspect =  advice(what to do?)+joint point(where to do ) 
+
+spring web mvc application  .... 
+MVC
+
+mcv 
+
+
+Day 4:
+EMS 
+
+J2ee
+pres---service---dao---datasource
+EMS --web mvc
+single controller --spring 
+controller ----RestAPI 
+RootWebApplication 
+CRUD 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
